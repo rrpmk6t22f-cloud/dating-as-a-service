@@ -7,8 +7,10 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <link rel="icon" href="{{ "images/favicon.png" | relURL }}">
-    <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
-    <script src="{{ "js/site.js" | relURL }}" defer></script>
+    {{ $styles := resources.Get "css/site.css" | minify | fingerprint }}
+    {{ $script := resources.Get "js/site.js" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
   </head>
   <body class="{{ block "body-class" . }}{{ end }}">
     <a class="skip-link" href="#main-content">Skip to content</a>
