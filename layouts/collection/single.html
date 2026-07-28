@@ -1,22 +1,22 @@
 {{ define "body-class" }}thesis-page{{ end }}
-{{ define "title" }}
-  {{ $slug := .File.ContentBaseName }}
-  {{ range hugo.Data.theses }}{{ if eq .slug $slug }}{{ .title }} — DaaS{{ end }}{{ end }}
-{{ end }}
+{{ define "title" }}{{ .Title }} — DaaS{{ end }}
 {{ define "main" }}
-{{ $slug := .File.ContentBaseName }}
-{{ $record := false }}
-{{ range hugo.Data.theses }}{{ if eq .slug $slug }}{{ $record = . }}{{ end }}{{ end }}
-{{ with $record }}
-  {{ $header := dict "counter" .counter "progress" (mul (div (float .number) 31) 100) }}
+{{ $current := . }}
+{{ $theses := .CurrentSection.RegularPages.ByParam "number" }}
+{{ $total := len $theses }}
+{{ $position := 0 }}
+{{ range $index, $page := $theses }}{{ if eq $page.RelPermalink $current.RelPermalink }}{{ $position = $index }}{{ end }}{{ end }}
+{{ $next := index $theses (mod (add $position 1) $total) }}
+{{ with .Params }}
+  {{ $header := dict "counter" (printf "%02d / %02d" .number $total) "progress" (mul (div (float .number) $total) 100) }}
   {{ partial "header.html" $header }}
   <main id="main-content" class="thesis-shell" id="top">
     <aside class="thesis-nav" aria-label="All theses">
       <p>{{ .part }}</p>
       <ol>
-        {{ range hugo.Data.theses }}
-          <li class="{{ if eq .slug $slug }}is-current{{ end }}">
-            <a href="{{ printf "collection/%s/" .slug | relURL }}"><span>{{ .thesis }}</span>{{ .title }}</a>
+        {{ range $theses }}
+          <li class="{{ if eq .RelPermalink $current.RelPermalink }}is-current{{ end }}">
+            <a href="{{ .RelPermalink }}"><span>{{ .Params.thesis }}</span>{{ .Title }}</a>
           </li>
         {{ end }}
       </ol>
@@ -25,7 +25,7 @@
       <header class="thesis-hero">
         <p class="eyebrow">{{ .part }}</p>
         <p class="thesis-number">{{ .thesis }}</p>
-        <h1>{{ .title }}</h1>
+        <h1>{{ $current.Title }}</h1>
         <p class="dek">{{ .dek }}</p>
       </header>
 
@@ -62,18 +62,15 @@
       </section>
 
       <nav class="next-thesis" aria-label="Continue through the inquiry">
-        {{ $next := index hugo.Data.theses (mod .number 31) }}
         <p>NEXT THESIS</p>
-        <a href="{{ printf "collection/%s/" $next.slug | relURL }}">
-          <span>{{ $next.thesis }}</span>
-          <strong>{{ $next.title }}</strong>
+        <a href="{{ $next.RelPermalink }}">
+          <span>{{ $next.Params.thesis }}</span>
+          <strong>{{ $next.Title }}</strong>
           <i>→</i>
         </a>
       </nav>
     </article>
   </main>
   {{ partial "footer.html" . }}
-{{ else }}
-  <main id="main-content"><h1>Thesis not found</h1></main>
 {{ end }}
 {{ end }}

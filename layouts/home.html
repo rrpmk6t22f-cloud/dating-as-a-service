@@ -1,5 +1,7 @@
 {{ define "body-class" }}home{{ end }}
 {{ define "main" }}
+{{ $collection := site.GetPage "section" "collection" }}
+{{ $thesisCount := len $collection.RegularPages }}
 <div class="preloader" data-preloader>
   <button type="button" aria-label="Dismiss preloader and enter page" data-enter>
     <span>CRITICAL INQUIRY</span>
@@ -12,14 +14,14 @@
   <section class="hero" id="top">
     <p class="eyebrow">CRITICAL INQUIRY / INTERNET INEQUALITIES</p>
     <h1>DATING AS A SERVICE</h1>
-    <p class="hero-dek">Thirty-one theses on intimacy, infrastructure and extraction.</p>
+    <p class="hero-dek">{{ $thesisCount }} theses on intimacy, infrastructure and extraction.</p>
     <p class="hero-copy">Dating apps promise to help people find someone. Their business models depend on people continuing to search. This project investigates what happens when connection becomes a subscription, attention becomes inventory and intimacy becomes platform infrastructure.</p>
     <div class="button-row">
       <a class="button primary" href="{{ "collection/revenue-up-payers-down/" | relURL }}">ENTER THE INQUIRY <span>↗</span></a>
       <a class="button" href="#why">LEARN MORE <span>↓</span></a>
     </div>
     <div class="hero-stats" aria-label="Project overview">
-      <p><strong>31</strong><span>Theses</span></p>
+      <p><strong>{{ $thesisCount }}</strong><span>Theses</span></p>
       <p><strong>4</strong><span>Parts</span></p>
       <p><strong>1</strong><span>Contradiction</span></p>
     </div>
@@ -38,7 +40,7 @@
     <p class="eyebrow">03 / THE PROJECT</p>
     <h2>A manifesto that behaves like the product it examines.</h2>
     <div class="two-col">
-      <p>I created an interactive, evidence-led manifesto composed of thirty-one theses—one for each price Tinder was found charging for the same subscription within a single country. Every thesis is presented through the same research structure. As the visitor progresses, that surface gives way to corporate filings, court cases, regulatory decisions, research studies and transaction records. The user begins inside the product and ends inside its balance sheet.</p>
+      <p>I created an interactive, evidence-led manifesto that began with thirty-one theses—one for each price Tinder was found charging for the same subscription within a single country—and can now grow as the inquiry continues. Every thesis is presented through the same research structure. As the visitor progresses, that surface gives way to corporate filings, court cases, regulatory decisions, research studies and transaction records. The user begins inside the product and ends inside its balance sheet.</p>
       <ol class="method-list">
         <li>CLAIM</li><li>CONTEXT</li><li>ARGUMENT</li>
         <li>EVIDENCE SNAPSHOT</li><li>SOURCE / FINDING</li>

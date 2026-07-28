@@ -1,0 +1,148 @@
+media:
+  input: static/images/uploads
+  output: /images/uploads
+  rename: safe
+  categories: [image]
+
+content:
+  - name: theses
+    label: Theses
+    type: collection
+    path: content/collection
+    exclude: [_index.md]
+    format: json-frontmatter
+    filename: "{slug}.md"
+    view:
+      fields: [number, thesis, title, part]
+      primary: title
+      sort: [number, title, part]
+      search: [title, dek, argument, finding, implication]
+      default:
+        sort: number
+        order: asc
+    operations:
+      create: true
+      rename: true
+      delete: true
+    fields:
+      - name: title
+        label: Thesis title
+        type: string
+        required: true
+        description: The main statement shown as the page heading.
+
+      - name: slug
+        label: URL slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          message: Use lowercase words separated by hyphens.
+        description: "Example: connection-beyond-retention"
+
+      - name: number
+        label: Order number
+        type: number
+        required: true
+        description: Controls the thesis order, progress indicator, and next link.
+
+      - name: thesis
+        label: Roman numeral label
+        type: string
+        required: true
+        description: "Example: THESIS XXXII"
+
+      - name: part
+        label: Part
+        type: select
+        required: true
+        options:
+          values:
+            - PART ONE — THE PORTFOLIO
+            - PART TWO — THE BODY AS DATA
+            - PART THREE — THE COUNTER-PRACTICE
+            - PART FOUR — THE OTHER LEDGER
+
+      - name: dek
+        label: Short introduction
+        type: text
+        required: true
+        description: One concise sentence below the thesis heading.
+
+      - name: argument
+        label: Main argument
+        type: text
+        required: true
+
+      - name: stats
+        label: Evidence statistics
+        type: object
+        list:
+          min: 1
+          max: 6
+          collapsible:
+            collapsed: true
+            summary: "{label}: {value}"
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: true
+          - name: value
+            label: Value
+            type: string
+            required: true
+          - name: note
+            label: Explanation
+            type: text
+            required: true
+
+      - name: finding
+        label: Key finding
+        type: text
+        required: true
+
+      - name: implication
+        label: Implication
+        type: text
+        required: true
+
+      - name: sources
+        label: Sources
+        type: object
+        list:
+          min: 1
+          max: 8
+          collapsible:
+            collapsed: true
+            summary: "{type}: {citation}"
+        fields:
+          - name: type
+            label: Source type
+            type: string
+            required: true
+            description: "Example: CORPORATE FILING"
+          - name: citation
+            label: Citation
+            type: text
+            required: true
+          - name: label
+            label: Link label
+            type: string
+            required: true
+            description: "Example: OPEN EARNINGS RELEASE"
+          - name: url
+            label: Source URL
+            type: string
+            required: true
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "Add thesis {filename} via Pages CMS"
+      update: "Update thesis {filename} via Pages CMS"
+      delete: "Delete thesis {filename} via Pages CMS"
+      rename: "Rename thesis {oldFilename} to {newFilename} via Pages CMS"
