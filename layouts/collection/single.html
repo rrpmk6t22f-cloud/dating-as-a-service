@@ -8,9 +8,9 @@
 {{ range $index, $page := $theses }}{{ if eq $page.RelPermalink $current.RelPermalink }}{{ $position = $index }}{{ end }}{{ end }}
 {{ $next := index $theses (mod (add $position 1) $total) }}
 {{ with .Params }}
-  {{ $header := dict "counter" (printf "%02d / %02d" .number $total) "progress" (mul (div (float .number) $total) 100) }}
+  {{ $header := dict "counter" (printf "%02d / %02d" (int .number) $total) "progress" (mul (div (float (add $position 1)) $total) 100) }}
   {{ partial "header.html" $header }}
-  <main id="main-content" class="thesis-shell" id="top">
+  <main id="main-content" class="thesis-shell">
     <aside class="thesis-nav" aria-label="All theses">
       <p>{{ .part }}</p>
       <ol>

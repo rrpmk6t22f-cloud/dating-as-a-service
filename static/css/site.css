@@ -102,9 +102,9 @@ blockquote{margin:0;font:400 clamp(2rem,3.1vw,4rem)/1.05 var(--serif);letter-spa
 .argument{padding:7vw 4vw;border-top:1px solid}
 .argument p{font-size:19px;line-height:1.65;max-width:900px;margin:0 auto}
 .evidence{border-top:1px solid;padding:5vw 4vw}
-.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid;margin-top:3rem}
-.stat-grid>div{min-height:230px;padding:1.5rem;border-right:1px solid;display:flex;flex-direction:column}
-.stat-grid>div:last-child{border:0}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));border:1px solid;margin-top:3rem}
+.stat-grid>div{min-height:230px;padding:1.5rem;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);display:flex;flex-direction:column}
+.stat-grid>div:last-child{border-right:0}
 .stat-grid strong{font:500 clamp(1.7rem,2.5vw,3rem)/1 var(--mono);color:var(--violet);letter-spacing:-.06em}
 .stat-grid h2{font:500 11px var(--mono);letter-spacing:.07em;margin:1rem 0;text-transform:uppercase}
 .stat-grid p{margin:auto 0 0;font-size:13px}
@@ -124,9 +124,6 @@ blockquote{margin:0;font:400 clamp(2rem,3.1vw,4rem)/1.05 var(--serif);letter-spa
 .next-thesis span{font:500 12px var(--mono)}
 .next-thesis strong{font:400 clamp(2.5rem,5vw,6rem)/1 var(--serif)}
 .next-thesis i{font:normal 40px var(--sans)}
-
-.js .editorial,.js .closing,.js .thesis-hero,.js .argument,.js .evidence,.js .finding{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
-.js .is-visible{opacity:1;transform:none}
 
 @media (max-width:900px){
   .site-header{grid-template-columns:1fr auto;min-height:65px;padding:0 18px}
@@ -153,7 +150,7 @@ blockquote{margin:0;font:400 clamp(2rem,3.1vw,4rem)/1.05 var(--serif);letter-spa
   .thesis-hero h1{font-size:15vw}
   .thesis-hero .dek{margin-top:auto;margin-left:0}
   .argument,.evidence{padding:16vw 18px}
-  .stat-grid{grid-template-columns:1fr 1fr}
+  .stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .stat-grid>div{border-bottom:1px solid}
   .stat-grid>div:nth-child(2){border-right:0}
   .finding{grid-template-columns:1fr}
@@ -166,5 +163,4 @@ blockquote{margin:0;font:400 clamp(2rem,3.1vw,4rem)/1.05 var(--serif);letter-spa
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
-  .js .editorial,.js .closing,.js .thesis-hero,.js .argument,.js .evidence,.js .finding{opacity:1;transform:none}
 }
