@@ -26,6 +26,7 @@ if (preloader && enter) {
 
 const filterButtons = document.querySelectorAll("[data-filter]");
 const thesisCards = document.querySelectorAll("[data-part]");
+const gridStatus = document.querySelector("[data-grid-status]");
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     filterButtons.forEach((item) => item.classList.remove("is-active"));
@@ -33,6 +34,27 @@ filterButtons.forEach((button) => {
     const filter = button.dataset.filter;
     thesisCards.forEach((card) => {
       card.hidden = filter !== "all" && card.dataset.part !== filter;
+    });
+    const visibleCount = [...thesisCards].filter((card) => !card.hidden).length;
+    if (gridStatus) {
+      gridStatus.textContent =
+        filter === "all"
+          ? `SHOWING ALL ${visibleCount} THESES`
+          : `SHOWING ${visibleCount} THESES`;
+    }
+  });
+});
+
+const collection = document.querySelector("[data-collection]");
+const viewButtons = document.querySelectorAll("[data-view]");
+viewButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const listView = button.dataset.view === "list";
+    collection?.classList.toggle("is-list-view", listView);
+    viewButtons.forEach((item) => {
+      const selected = item === button;
+      item.classList.toggle("is-active", selected);
+      item.setAttribute("aria-pressed", String(selected));
     });
   });
 });

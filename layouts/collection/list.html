@@ -5,26 +5,54 @@
 {{ partial "header.html" (dict) }}
 <main id="main-content" class="collection-shell" data-collection>
   <section class="collection-intro" id="top">
-    <p class="eyebrow">THE COMPLETE INQUIRY</p>
-    <h1>{{ len $theses }} THESES</h1>
-    <p>On intimacy, infrastructure and extraction.</p>
+    <p class="eyebrow">THE COMPLETE INQUIRY / {{ len $theses }} SIGNALS ONLINE</p>
+    <h1>THE THESIS GRID</h1>
+    <p>Every square is a claim. Every claim opens onto its evidence.</p>
   </section>
-  <nav class="part-filter" aria-label="Filter theses">
-    <button class="is-active" data-filter="all">ALL {{ len $theses }}</button>
-    <button data-filter="part-one">PART ONE</button>
-    <button data-filter="part-two">PART TWO</button>
-    <button data-filter="part-three">PART THREE</button>
-    <button data-filter="part-four">PART FOUR</button>
-  </nav>
-  <ol class="thesis-grid">
+  <div class="grid-controls">
+    <nav class="part-filter" aria-label="Filter theses">
+      <button class="is-active" data-filter="all">ALL {{ len $theses }}</button>
+      <button data-filter="part-one">PORTFOLIO</button>
+      <button data-filter="part-two">BODY AS DATA</button>
+      <button data-filter="part-three">COUNTER-PRACTICE</button>
+      <button data-filter="part-four">OTHER LEDGER</button>
+    </nav>
+    <div class="view-toggle" aria-label="Choose collection view">
+      <button class="is-active" type="button" data-view="grid" aria-pressed="true">GRID</button>
+      <button type="button" data-view="list" aria-pressed="false">LIST</button>
+    </div>
+  </div>
+  <p class="grid-status" aria-live="polite" data-grid-status>SHOWING ALL {{ len $theses }} THESES</p>
+  <ol class="thesis-grid" data-thesis-grid>
     {{ range $theses }}
       {{ $part := lower (replaceRE ` —.*$` "" .Params.part) | urlize }}
-      <li data-part="{{ $part }}">
-        <a href="{{ .RelPermalink }}">
-          <span>{{ .Params.thesis }}</span>
-          <h2>{{ .Title }}</h2>
-          <p>{{ .Params.dek }}</p>
-          <b aria-hidden="true">↗</b>
+      {{ $hue := mod (mul (int .Params.number) 37) 360 }}
+      {{ $hueTwo := mod (add $hue 74) 360 }}
+      {{ $tilt := sub (mod (mul (int .Params.number) 11) 18) 9 }}
+      {{ $shift := add 24 (mod (mul (int .Params.number) 17) 52) }}
+      <li class="profile-tile" data-part="{{ $part }}" style="--hue:{{ $hue }};--hue-two:{{ $hueTwo }};--tilt:{{ $tilt }}deg;--shift:{{ $shift }}%">
+        <a href="{{ .RelPermalink }}" aria-label="{{ .Params.thesis }}: {{ .Title }}">
+          <span class="profile-visual" aria-hidden="true">
+            <i class="portrait-orbit"></i>
+            <i class="portrait-head"></i>
+            <i class="portrait-body"></i>
+            <i class="portrait-scan"></i>
+          </span>
+          <span class="profile-topline">
+            <b>{{ .Params.thesis }}</b>
+            <em>{{ printf "%02d" (int .Params.number) }}</em>
+          </span>
+          <span class="profile-copy">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Params.dek }}</p>
+          </span>
+          <span class="profile-signal">
+            {{ with index .Params.stats 0 }}
+              <b>{{ .value }}</b>
+              <span>{{ .label }}</span>
+            {{ end }}
+          </span>
+          <span class="profile-arrow" aria-hidden="true">↗</span>
         </a>
       </li>
     {{ end }}
