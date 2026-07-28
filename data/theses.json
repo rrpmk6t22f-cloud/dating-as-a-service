@@ -1,0 +1,1400 @@
+[
+  {
+    "title": "Revenue per user rises while the number of users falls.",
+    "slug": "revenue-up-payers-down",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS I",
+    "number": 1,
+    "counter": "01 / 31",
+    "dek": "Fewer paying users. More revenue extracted from each one.",
+    "stats": [
+      {
+        "label": "AVERAGE PAYERS",
+        "value": "14.2M",
+        "note": "Average paying users, down 5% year on year"
+      },
+      {
+        "label": "REVENUE PER PAYER",
+        "value": "$20.09",
+        "note": "Monthly revenue per payer, up 5% year on year"
+      },
+      {
+        "label": "2025 REVENUE",
+        "value": "$3.487B",
+        "note": "Full-year revenue reported by Match Group"
+      },
+      {
+        "label": "Q4 EBITDA MARGIN",
+        "value": "42%",
+        "note": "Adjusted margin reported for the fourth quarter"
+      }
+    ],
+    "finding": "Match Group closed 2025 with revenue of $3.487 billion against average payers of 14.165 million, down five percent year on year, at a revenue per payer of $20.09, up five percent.",
+    "implication": "The company can extract more revenue while the paying population contracts.",
+    "argument": "Match Group closed 2025 with revenue of $3.487 billion against average payers of 14.165 million, down five percent year on year, at a revenue per payer of $20.09, up five percent. The fourth quarter sharpened it: payers 13.84 million, down five percent; revenue per payer $20.72, up seven percent; net income $210 million, up thirty-two percent; adjusted EBITDA margin forty-two percent. Tinder alone reported 8.77 million payers, down eight percent, at an operating margin close to fifty percent. The company returned $789 million in buybacks, ninety-five percent of free cash flow, plus $186 million in dividends.",
+    "sources": [
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Match Group, Inc. (2026). Fourth quarter and full year 2025 earnings release.",
+        "label": "OPEN EARNINGS RELEASE",
+        "url": "https://ir.mtch.com/investor-relations/news-events/news-events/news-details/2026/Match-Group-Announces-Fourth-Quarter-and-Full-Year-Results/"
+      }
+    ]
+  },
+  {
+    "title": "The revenue model is indifferent to whether a user succeeds, and is mildly penalised when one does.",
+    "slug": "success-ends-subscriptions",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS II",
+    "number": 2,
+    "counter": "02 / 31",
+    "dek": "A successful relationship removes two potential subscribers.",
+    "stats": [
+      {
+        "label": "SUCCESSFUL MATCH",
+        "value": "2 exits",
+        "note": "A successful relationship may end two subscriptions"
+      },
+      {
+        "label": "PLATFORM METRICS",
+        "value": "Payers/churn",
+        "note": "Retention is tracked through payers and churn"
+      },
+      {
+        "label": "USER GOAL",
+        "value": "Exit",
+        "note": "The user’s desired outcome is leaving the product"
+      },
+      {
+        "label": "STRUCTURAL TENSION",
+        "value": "Opposed",
+        "note": "Platform retention and user resolution point opposite ways"
+      }
+    ],
+    "finding": "Two people who stay together cancel two subscriptions.",
+    "implication": "The user’s ideal outcome and the platform’s preferred commercial outcome do not fully align.",
+    "argument": "Two people who stay together cancel two subscriptions. Financial journalism has put the arithmetic bluntly: each successful match costs the platform not one customer but two. No Match Group executive has ever said this on the record, and this manifesto does not claim otherwise. The claim is narrower and harder to answer. A subscription business reporting payers, revenue per payer and churn as its primary disclosures is measuring retention, and retention and resolution point in opposite directions.",
+    "sources": [
+      {
+        "type": "JOURNALISM / SCHOLARSHIP",
+        "citation": "Rosalsky, G. (2024, February 13). The dating app paradox: Why dating apps may be worse than ever. Planet Money. NPR.",
+        "label": "OPEN PODCAST EPISODE",
+        "url": "https://www.npr.org/sections/money/2024/02/13/1228749143/the-dating-app-paradox-why-dating-apps-may-be-worse-than-ever"
+      },
+      {
+        "type": "JOURNALISM / SCHOLARSHIP",
+        "citation": "Srnicek, N. (2016). Platform capitalism. Polity Press.",
+        "label": "VIEW BOOK RECORD",
+        "url": "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/platform-capitalism-978-1-5095-0486-2"
+      }
+    ]
+  },
+  {
+    "title": "The scarcity is manufactured, and the removal of the scarcity is the product.",
+    "slug": "manufactured-scarcity",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS III",
+    "number": 3,
+    "counter": "03 / 31",
+    "dek": "The platform introduces the restriction. Then it sells its removal.",
+    "stats": [
+      {
+        "label": "RESTRICTION",
+        "value": "Hidden",
+        "note": "Incoming likes are concealed by platform design"
+      },
+      {
+        "label": "PAID REMOVAL",
+        "value": "Unlock",
+        "note": "Identity of incoming likes becomes a subscription feature"
+      },
+      {
+        "label": "VISIBILITY",
+        "value": "Boost",
+        "note": "Temporary profile visibility is sold separately"
+      },
+      {
+        "label": "REWIND",
+        "value": "Premium",
+        "note": "A paid tier restores the removed rewind"
+      }
+    ],
+    "finding": "Daily like limits, concealed incoming likes, restricted rewinds, Boosts, Super Likes, Tinder Plus, Gold, Platinum and Select, Hinge Plus and HingeX.",
+    "implication": "The platform creates friction and sells relief from that friction.",
+    "argument": "Daily like limits, concealed incoming likes, restricted rewinds, Boosts, Super Likes, Tinder Plus, Gold, Platinum and Select, Hinge Plus and HingeX. Every paid tier retails the suspension of a constraint the platform introduced. Nothing in the underlying technology requires that a user be shown that somebody likes them while being prevented from seeing who. The friction is an engineering decision with a price attached, and it is disclosed to shareholders as à-la-carte revenue.",
+    "sources": [
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Match Group, Inc. (2026). Annual report (Form 10-K) for the fiscal year ended December 31, 2025. U.S. Securities and Exchange Commission.",
+        "label": "OPEN CORPORATE FILING",
+        "url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000025/mtch-20251231.htm"
+      }
+    ]
+  },
+  {
+    "title": "Over twenty brands, one owner.",
+    "slug": "one-owner-many-brands",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS IV",
+    "number": 4,
+    "counter": "04 / 31",
+    "dek": "Changing apps may only move you to another line in the same earnings report.",
+    "stats": [
+      {
+        "label": "PORTFOLIO",
+        "value": "20+",
+        "note": "Dating brands operating across the wider portfolio"
+      },
+      {
+        "label": "REPORTING",
+        "value": "4",
+        "note": "Business lines used in corporate reporting"
+      },
+      {
+        "label": "HER ACQUIRED",
+        "value": "May 2025",
+        "note": "Queer platform added to the portfolio in 2025"
+      },
+      {
+        "label": "PARENT",
+        "value": "Match Group",
+        "note": "Distinct products ultimately report to one owner"
+      }
+    ],
+    "finding": "Tinder, Hinge, Match, Meetic, OkCupid, Plenty of Fish, Pairs, Azar, Hakuna, OurTime, BLK, Chispa, Archer, The League, and since May 2025 the sapphic app HER.",
+    "implication": "Leaving one brand may keep the user inside the same ownership structure.",
+    "argument": "Tinder, Hinge, Match, Meetic, OkCupid, Plenty of Fish, Pairs, Azar, Hakuna, OurTime, BLK, Chispa, Archer, The League, and since May 2025 the sapphic app HER. Match Group reports in four segments; industry trackers have counted forty-five services under the same roof. Uninstalling one application and installing another most often moves a user between line items in a single earnings release.",
+    "sources": [
+      {
+        "type": "COMPANY STATEMENT",
+        "citation": "Match Group, Inc. (2024). Business overview.",
+        "label": "OPEN BUSINESS OVERVIEW (PDF)",
+        "url": "https://ir.mtch.com/files/doc_downloads/Match-Group-Business-Overview-January-2024-vF.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Users were ranked, were not shown the ranking, and the gesture itself is patented.",
+    "slug": "hidden-ranking-patented-swipe",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS V",
+    "number": 5,
+    "counter": "05 / 31",
+    "dek": "Desirability became an internal score. The swipe became intellectual property.",
+    "stats": [
+      {
+        "label": "INTERNAL RANKING",
+        "value": "2016",
+        "note": "Internal desirability scoring confirmed by Tinder"
+      },
+      {
+        "label": "LATER STATUS",
+        "value": "Retired",
+        "note": "Elo system later described as no longer used"
+      },
+      {
+        "label": "PATENT",
+        "value": "US 9,733,811",
+        "note": "Double-opt-in swipe registered as company intellectual property"
+      },
+      {
+        "label": "LITIGATION",
+        "value": "2018",
+        "note": "Patent rights asserted during litigation against Bumble"
+      }
+    ],
+    "finding": "In January 2016 Tinder confirmed to \n\nFast Company\n\n that it maintained an internal desirability score; Sean Rad described two and a half months of work on the algorithm, and Jonathan Badeen compared the mechanic to Warcraft ladders, where beating a high-rated opponent yields more points.",
+    "implication": "User evaluation and the gesture used to evaluate others became proprietary infrastructure.",
+    "argument": "In January 2016 Tinder confirmed to \n\nFast Company\n\n that it maintained an internal desirability score; Sean Rad described two and a half months of work on the algorithm, and Jonathan Badeen compared the mechanic to Warcraft ladders, where beating a high-rated opponent yields more points. In March 2019 the company stated that Elo was old news and that its technology no longer relied on it, describing a newer system weighted on engagement signals. Separately, United States Patent 9,733,811 B2 assigns the double-opt-in swipe to Match Group, which litigated it against Bumble in 2018. The scoring was retired, the disclosure was never introduced, and the motion a person makes with their thumb while looking for someone to love is an asset defended in court.",
+    "sources": [
+      {
+        "type": "JOURNALISM / PATENT RECORD",
+        "citation": "Carr, A. (2016, January 11). I found out my secret internal Tinder rating and now I wish I hadn't. Fast Company.",
+        "label": "READ INVESTIGATION",
+        "url": "https://www.fastcompany.com/3054871/whats-your-tinder-score-inside-the-apps-internal-ranking-system"
+      },
+      {
+        "type": "JOURNALISM / PATENT RECORD",
+        "citation": "Rad, S., Carrico, T., Hoskins, R., Stone, K., & Badeen, J. (2017). Matching process system and method (U.S. Patent No. 9,733,811 B2). U.S. Patent and Trademark Office.",
+        "label": "OPEN PATENT RECORD",
+        "url": "https://patents.google.com/patent/US9733811B2/en"
+      }
+    ]
+  },
+  {
+    "title": "Volume produces refusal, and the refusal outlasts the session.",
+    "slug": "volume-produces-refusal",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS VI",
+    "number": 6,
+    "counter": "06 / 31",
+    "dek": "The more profiles people see, the less likely they become to accept one.",
+    "stats": [
+      {
+        "label": "ACCEPTANCE",
+        "value": "−27%",
+        "note": "Acceptance fell from the first profile to the last"
+      },
+      {
+        "label": "STUDIES",
+        "value": "3",
+        "note": "Effect reproduced across three experimental studies"
+      },
+      {
+        "label": "QUALITY",
+        "value": "Constant",
+        "note": "Objective profile quality remained unchanged throughout"
+      },
+      {
+        "label": "EFFECT",
+        "value": "Rejection",
+        "note": "Repeated choice produced a persistent rejection mind-set"
+      }
+    ],
+    "finding": "Across three studies, the probability that a participant would accept a profile declined by an average of twenty-seven percent between the first option presented and the last, with objective quality held constant.",
+    "implication": "Endless choice can train habitual refusal rather than improve connection.",
+    "argument": "Across three studies, the probability that a participant would accept a profile declined by an average of twenty-seven percent between the first option presented and the last, with objective quality held constant. The researchers named the effect a rejection mind-set. Women in the sample subsequently received fewer matches. The interface trains a disposition, and the disposition does not remain inside the interface.",
+    "sources": [
+      {
+        "type": "PEER-REVIEWED STUDY",
+        "citation": "Pronk, T. M., & Denissen, J. J. A. (2020). A rejection mind-set: Choice overload in online dating. Social Psychological and Personality Science, 11(3), 388–396.",
+        "label": "OPEN ARTICLE (DOI)",
+        "url": "https://doi.org/10.1177/1948550619866189"
+      }
+    ]
+  },
+  {
+    "title": "The application is the destination rather than the route.",
+    "slug": "the-app-is-the-destination",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS VII",
+    "number": 7,
+    "counter": "07 / 31",
+    "dek": "Matches accumulate. Meetings remain optional.",
+    "stats": [
+      {
+        "label": "PRIMARY LOOP",
+        "value": "Browse→match",
+        "note": "The core loop keeps users browsing and matching"
+      },
+      {
+        "label": "MEASURED",
+        "value": "Engagement",
+        "note": "Platform activity is measured as commercial engagement"
+      },
+      {
+        "label": "UNMEASURED",
+        "value": "Not tracked",
+        "note": "Quality of connection is not a primary metric"
+      },
+      {
+        "label": "USER ROLE",
+        "value": "Dual role",
+        "note": "The user operates as both product and customer"
+      }
+    ],
+    "finding": "A psychoanalytic reading of the libidinal economy of dating platforms concludes that their function is the exploitation of desire and its redirection toward the app itself and its accumulation of matches, rather than toward any meeting outside it.",
+    "implication": "Searching for a person can become attachment to the process of searching.",
+    "argument": "A psychoanalytic reading of the libidinal economy of dating platforms concludes that their function is the exploitation of desire and its redirection toward the app itself and its accumulation of matches, rather than toward any meeting outside it. Illouz had already described internet dating as importing a market mentality into intimate life, one that unleashes fantasy while inhibiting romantic feeling. Bandinelli and Gandini describe users operating as small brands managing assets in a social relationship market.",
+    "sources": [
+      {
+        "type": "PEER-REVIEWED SCHOLARSHIP",
+        "citation": "Bandinelli, C., & Bandinelli, A. (2021). What does the app want? A psychoanalytic interpretation of dating apps' libidinal economy. Psychoanalysis, Culture & Society, 26(2), 181–198.",
+        "label": "OPEN ARTICLE (DOI)",
+        "url": "https://doi.org/10.1057/s41282-021-00217-5"
+      },
+      {
+        "type": "PEER-REVIEWED SCHOLARSHIP",
+        "citation": "Illouz, E. (2007). Cold intimacies: The making of emotional capitalism. Polity Press.",
+        "label": "VIEW BOOK RECORD",
+        "url": "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/cold-intimacies-978-0-7456-3905-5"
+      },
+      {
+        "type": "PEER-REVIEWED SCHOLARSHIP",
+        "citation": "Bandinelli, C., & Gandini, A. (2022). Dating apps: The uncertainty of marketised love. Cultural Sociology, 16(3), 423–441.",
+        "label": "OPEN ARTICLE (DOI)",
+        "url": "https://doi.org/10.1177/17499755211051559"
+      }
+    ]
+  },
+  {
+    "title": "Price is set by demography.",
+    "slug": "demographic-pricing",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS VIII",
+    "number": 8,
+    "counter": "08 / 31",
+    "dek": "The same country. The same subscription. A different price.",
+    "stats": [
+      {
+        "label": "PRICE POINTS",
+        "value": "31",
+        "note": "Distinct prices offered within a single country"
+      },
+      {
+        "label": "PRICE SPREAD",
+        "value": "5×",
+        "note": "Maximum spread found for an identical subscription"
+      },
+      {
+        "label": "AGE EFFECT",
+        "value": "+65.3%",
+        "note": "Older users paid more on average across markets"
+      },
+      {
+        "label": "COUNTRIES",
+        "value": "6",
+        "note": "Countries included in the international pricing investigation"
+      }
+    ],
+    "finding": "Mozilla and Consumers International found Tinder operating up to thirty-one distinct price points for the same subscription within a single country, a spread of up to five times for identical service: $4.99 to $26.99 in the United States, $4.45 to $25.95 in the Netherlands.",
+    "implication": "Pricing reflects inferred willingness to pay rather than product value alone.",
+    "argument": "Mozilla and Consumers International found Tinder operating up to thirty-one distinct price points for the same subscription within a single country, a spread of up to five times for identical service: $4.99 to $26.99 in the United States, $4.45 to $25.95 in the Netherlands. Across six countries, users aged thirty to forty-nine paid on average 65.3 percent more than users aged eighteen to twenty-nine. Tinder settled age-pricing claims for $17.3 million, and again for $60.5 million, the latter covering some 260,000 Californian class members under the Unruh Civil Rights Act.",
+    "sources": [
+      {
+        "type": "CONSUMER INVESTIGATION / COURT RECORD",
+        "citation": "Mozilla Foundation & Consumers International. (2022). A consumer investigation into personalised pricing.",
+        "label": "OPEN REPORT (PDF)",
+        "url": "https://www.consumersinternational.org/media/614227/personalized_pricing.pdf"
+      },
+      {
+        "type": "CONSUMER INVESTIGATION / COURT RECORD",
+        "citation": "Kim v. Tinder, Inc., No. 2:18-cv-03093 (C.D. Cal. 2019).",
+        "label": "OPEN CASE DOCKET",
+        "url": "https://dockets.justia.com/docket/california/cacdce/2%3A2018cv03093/707149"
+      }
+    ]
+  },
+  {
+    "title": "A measurable share of the interest shown to users was fabricated.",
+    "slug": "fabricated-interest",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS IX",
+    "number": 9,
+    "counter": "09 / 31",
+    "dek": "The notification looked romantic. The account was already suspected of being fake.",
+    "stats": [
+      {
+        "label": "SUBSCRIPTIONS",
+        "value": "~500K",
+        "note": "Subscriptions purchased within twenty-four hours of contact"
+      },
+      {
+        "label": "FLAGGED ACCOUNTS",
+        "value": "~90%",
+        "note": "Flagged accounts later confirmed as fraudulent"
+      },
+      {
+        "label": "SETTLEMENT",
+        "value": "$14M",
+        "note": "Case settled without an admission of liability"
+      },
+      {
+        "label": "PERIOD",
+        "value": "2016–18",
+        "note": "Period covered by the Federal Trade Commission allegation"
+      }
+    ],
+    "finding": "The Federal Trade Commission alleged that between June 2016 and May 2018, nearly 500,000 subscriptions were purchased within twenty-four hours of a user receiving a message from an account the company had already flagged as likely fraudulent.",
+    "implication": "Suspected fraudulent interest could function as a subscription-conversion mechanism.",
+    "argument": "The Federal Trade Commission alleged that between June 2016 and May 2018, nearly 500,000 subscriptions were purchased within twenty-four hours of a user receiving a message from an account the company had already flagged as likely fraudulent. Around ninety percent of those flagged accounts were subsequently confirmed as fake. The complaint further alleged deceptive free-subscription guarantees, obstructed cancellation, and account suspensions imposed on users who disputed charges. Match Group settled in August 2025 for $14 million with no admission of liability.",
+    "sources": [
+      {
+        "type": "REGULATORY ACTION",
+        "citation": "Federal Trade Commission. (2025, August 12). Match Group to pay $14 million to settle FTC charges over deceptive advertising and subscription practices [Press release].",
+        "label": "OPEN FTC SETTLEMENT",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2025/08/match-group-agrees-pay-14-million-permanently-stop-deceptive-advertising-cancellation-billing"
+      }
+    ]
+  },
+  {
+    "title": "Safety was withheld from the free tier and later sold as an upgrade.",
+    "slug": "safety-became-an-upgrade",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS X",
+    "number": 10,
+    "counter": "10 / 31",
+    "dek": "One group of users received screening. Another received exposure.",
+    "stats": [
+      {
+        "label": "SCREENED",
+        "value": "Match.com",
+        "note": "Sex-offender screening applied to the paid Match service"
+      },
+      {
+        "label": "UNSCREENED",
+        "value": "3 apps",
+        "note": "Three named free apps lacked equivalent screening"
+      },
+      {
+        "label": "INCIDENTS",
+        "value": "150+",
+        "note": "Reported assault incidents reviewed by investigators"
+      },
+      {
+        "label": "LATER MODEL",
+        "value": "Paid",
+        "note": "Background checks were later offered as paid functionality"
+      }
+    ],
+    "finding": "A joint investigation by ProPublica, Columbia Journalism Investigations and BuzzFeed News established that Match Group screened for registered sex offenders on the paid Match.com service and not on Tinder, OkCupid or Plenty of Fish.",
+    "implication": "Safety protections were unevenly applied and later repositioned as purchasable functionality.",
+    "argument": "A joint investigation by ProPublica, Columbia Journalism Investigations and BuzzFeed News established that Match Group screened for registered sex offenders on the paid Match.com service and not on Tinder, OkCupid or Plenty of Fish. A company spokesperson, on the record: there are definitely registered sex offenders on our free products. Reporters reviewed more than 150 incidents of sexual assault connected to dating platforms over roughly a decade. A House Oversight subcommittee opened an inquiry in 2020. The company subsequently moved toward offering background checks as a paid feature.",
+    "sources": [
+      {
+        "type": "INVESTIGATIVE REPORT",
+        "citation": "Flynn, H., Cousins, K., & Naismith Picciani, E. (2019, December 2). Tinder lets known sex offenders use the app. It's not the only one. ProPublica, Columbia Journalism Investigations & BuzzFeed News.",
+        "label": "READ INVESTIGATION",
+        "url": "https://www.propublica.org/article/tinder-lets-known-sex-offenders-use-the-app-its-not-the-only-one"
+      }
+    ]
+  },
+  {
+    "title": "Intentionality is a growth segment.",
+    "slug": "intentionality-drives-growth",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS XI",
+    "number": 11,
+    "counter": "11 / 31",
+    "dek": "The promise of leaving the app has become one of its fastest-growing businesses.",
+    "stats": [
+      {
+        "label": "Q4 REVENUE",
+        "value": "$186.5M",
+        "note": "Fourth-quarter Hinge revenue, twenty-six percent higher"
+      },
+      {
+        "label": "PAYERS",
+        "value": "1.89M",
+        "note": "Paying users increased seventeen percent year on year"
+      },
+      {
+        "label": "2027 TARGET",
+        "value": "$1B",
+        "note": "Revenue ambition publicly set for 2027"
+      },
+      {
+        "label": "POSITIONING",
+        "value": "“Deleted”",
+        "note": "Deletion rhetoric became a commercial growth proposition"
+      }
+    ],
+    "finding": "Hinge, the brand marketed on the promise of its own deletion, reported fourth-quarter 2025 direct revenue of $186.5 million, up twenty-six percent, on 1.89 million payers, up seventeen percent, against a group target of one billion dollars in revenue by 2027.",
+    "implication": "The industry monetises criticism of endless swiping by selling intentionality.",
+    "argument": "Hinge, the brand marketed on the promise of its own deletion, reported fourth-quarter 2025 direct revenue of $186.5 million, up twenty-six percent, on 1.89 million payers, up seventeen percent, against a group target of one billion dollars in revenue by 2027. Hinge is also a named defendant in the addiction litigation. Under a new chief executive, Tinder has repositioned toward user outcomes, lower-pressure formats and in-person events, following a documented departure of younger users. The critique of the industry and the growth strategy of the industry currently share a vocabulary.",
+    "sources": [
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Match Group, Inc. (2026). Fourth quarter and full year 2025 earnings release.",
+        "label": "OPEN EARNINGS RELEASE",
+        "url": "https://ir.mtch.com/investor-relations/news-events/news-events/news-details/2026/Match-Group-Announces-Fourth-Quarter-and-Full-Year-Results/"
+      }
+    ]
+  },
+  {
+    "title": "The consolidation has reached the communities the industry once ignored.",
+    "slug": "queer-platforms-consolidated",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS XII",
+    "number": 12,
+    "counter": "12 / 31",
+    "dek": "An independent queer platform became part of the largest dating portfolio.",
+    "stats": [
+      {
+        "label": "FOUNDED",
+        "value": "2013",
+        "note": "Platform originally launched under the name Dattch"
+      },
+      {
+        "label": "MEMBERS",
+        "value": "13–15M",
+        "note": "Registered membership reported before the acquisition"
+      },
+      {
+        "label": "ACQUIRED",
+        "value": "May 2025",
+        "note": "Match Group completed the acquisition in May 2025"
+      },
+      {
+        "label": "BUYER",
+        "value": "Match Group",
+        "note": "Financial terms of the purchase were not disclosed"
+      }
+    ],
+    "finding": "HER was founded in 2013 as Dattch by Robyn Exton, built for queer women and non-binary users who had been treated as an afterthought by the mainstream products, and grew to a reported thirteen to fifteen million registered members.",
+    "implication": "Independent community infrastructure can be absorbed by the consolidated market it challenged.",
+    "argument": "HER was founded in 2013 as Dattch by Robyn Exton, built for queer women and non-binary users who had been treated as an afterthought by the mainstream products, and grew to a reported thirteen to fifteen million registered members. Match Group announced its acquisition on 20 May 2025; financial terms were not disclosed. Exton remained and stated that the team, the values and the community focus would not change. On r/actuallesbians the immediate popular response was instruction on how to request deletion of one's data.",
+    "sources": [
+      {
+        "type": "ACQUISITION REPORT",
+        "citation": "Bloomberg News. (2025, May 20). Match Group acquires 'Her' dating app for queer women. Bloomberg.",
+        "label": "READ BLOOMBERG REPORT",
+        "url": "https://www.bloomberg.com/news/articles/2025-05-20/match-group-acquires-her-dating-app-for-queer-women"
+      }
+    ]
+  },
+  {
+    "title": "The sector is contracting while the extraction intensifies.",
+    "slug": "contraction-intensifies-extraction",
+    "part": "PART ONE — THE PORTFOLIO",
+    "thesis": "THESIS XIII",
+    "number": 13,
+    "counter": "13 / 31",
+    "dek": "The audience shrinks. The company cuts costs. The business searches for higher yield.",
+    "stats": [
+      {
+        "label": "Q1 REVENUE",
+        "value": "$247M",
+        "note": "First-quarter revenue, eight percent lower year on year"
+      },
+      {
+        "label": "PAYING USERS",
+        "value": "2.7M",
+        "note": "Paying-user total reported for Bumble’s applications"
+      },
+      {
+        "label": "ROLES",
+        "value": "~240",
+        "note": "Roles eliminated during the June restructuring"
+      },
+      {
+        "label": "WORKFORCE",
+        "value": "~30%",
+        "note": "Approximate share of the workforce removed"
+      }
+    ],
+    "finding": "Bumble reported first-quarter 2025 revenue of $247 million, down eight percent, with app paying users at 2.7 million and a user base that fell from roughly fifty-eight million in 2023 to fifty million in 2024.",
+    "implication": "When growth slows, extraction pressure shifts toward users and workers.",
+    "argument": "Bumble reported first-quarter 2025 revenue of $247 million, down eight percent, with app paying users at 2.7 million and a user base that fell from roughly fifty-eight million in 2023 to fifty million in 2024. Whitney Wolfe Herd returned as chief executive in March 2025 and announced the elimination of around thirty percent of staff, some 240 roles, in June, saving approximately forty million dollars annually. The company's market value fell from the seven-to-fifteen-billion-dollar range at its 2021 listing to roughly half a billion by mid-2025.",
+    "sources": [
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Bumble Inc. (2025). Current report (Form 8-K), June 25, 2025. U.S. Securities and Exchange Commission.",
+        "label": "OPEN CORPORATE FILING",
+        "url": "https://www.sec.gov/Archives/edgar/data/1830043/000119312525146199/d915271d8k.htm"
+      }
+    ]
+  },
+  {
+    "title": "The paying minority is small, and the free majority is the inventory.",
+    "slug": "free-users-are-inventory",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XIV",
+    "number": 14,
+    "counter": "14 / 31",
+    "dek": "Fewer than nine in every hundred active users pay. Everyone still produces value.",
+    "stats": [
+      {
+        "label": "MONTHLY USERS",
+        "value": "15M",
+        "note": "Average monthly users supplying activity and network density"
+      },
+      {
+        "label": "PAYING USERS",
+        "value": "1.3M",
+        "note": "Average users generating direct subscription revenue"
+      },
+      {
+        "label": "PAYING SHARE",
+        "value": "<9%",
+        "note": "Only a small minority pays the platform directly"
+      },
+      {
+        "label": "2025 REVENUE",
+        "value": "$439.9M",
+        "note": "Full-year revenue reported by Grindr"
+      }
+    ],
+    "finding": "Grindr reported full-year 2025 revenue of $439.9 million, up twenty-eight percent, with net income of $95 million and adjusted EBITDA of $195.6 million, against average monthly active users of fifteen million and average paying users of approximately 1.3 million.",
+    "implication": "Free users supply density, engagement and advertising value.",
+    "argument": "Grindr reported full-year 2025 revenue of $439.9 million, up twenty-eight percent, with net income of $95 million and adjusted EBITDA of $195.6 million, against average monthly active users of fifteen million and average paying users of approximately 1.3 million. Fewer than nine in a hundred active users pay anything. Indirect revenue, meaning advertising, rose from 14.5 percent to 16.1 percent of total revenue across the first nine months of the year. The company introduced 2026 guidance above $528 million and announced a $400 million increase to its buyback programme, extended to March 2029.",
+    "sources": [
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Grindr Inc. (2026, February 26). Fourth quarter and full year 2025 results.",
+        "label": "OPEN EARNINGS RELEASE",
+        "url": "https://investors.grindr.com/news/news-details/2026/Grindr-Inc--Delivers-28-Full-Year-2025-Revenue-Growth/default.aspx"
+      },
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Grindr Inc. (2025). Quarterly report (Form 10-Q), period ended September 30, 2025. U.S. Securities and Exchange Commission.",
+        "label": "OPEN CORPORATE FILING",
+        "url": "https://www.sec.gov/Archives/edgar/data/1820144/000182014425000039/grnd-20250930.htm"
+      }
+    ]
+  },
+  {
+    "title": "The risk is distributed globally and the revenue is not.",
+    "slug": "global-risk-concentrated-revenue",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XV",
+    "number": 15,
+    "counter": "15 / 31",
+    "dek": "Exposure travels everywhere. Monetisation remains concentrated where visibility is safer.",
+    "stats": [
+      {
+        "label": "GLOBAL REACH",
+        "value": "190+",
+        "note": "Service availability across countries and territories"
+      },
+      {
+        "label": "NA + EUROPE",
+        "value": "84%",
+        "note": "Revenue generated in North America and Europe"
+      },
+      {
+        "label": "RISK",
+        "value": "Global",
+        "note": "Personal exposure is distributed across the global network"
+      },
+      {
+        "label": "REVENUE",
+        "value": "Few markets",
+        "note": "Commercial returns remain concentrated in safer markets"
+      }
+    ],
+    "finding": "Grindr states that it has users in more than 190 countries and territories, and that North America and Europe generated eighty-four percent of total revenue in the first half of 2025.",
+    "implication": "The greatest personal risk may be borne in markets generating the least revenue.",
+    "argument": "Grindr states that it has users in more than 190 countries and territories, and that North America and Europe generated eighty-four percent of total revenue in the first half of 2025. The users who face criminal penalty, extortion or violence for appearing on the grid are concentrated in the jurisdictions that contribute least to the income statement. The exposure travels everywhere; the monetisation stays where it is safe to be visible.",
+    "sources": [
+      {
+        "type": "CORPORATE FILING",
+        "citation": "Grindr Inc. (2025). Quarterly report (Form 10-Q), period ended June 30, 2025. U.S. Securities and Exchange Commission.",
+        "label": "OPEN CORPORATE FILING",
+        "url": "https://www.sec.gov/Archives/edgar/data/1820144/000182014425000035/grnd-20250630.htm"
+      }
+    ]
+  },
+  {
+    "title": "Health status was handled as telemetry.",
+    "slug": "health-data-as-telemetry",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XVI",
+    "number": 16,
+    "counter": "16 / 31",
+    "dek": "HIV status travelled with location, device and identity data.",
+    "stats": [
+      {
+        "label": "HEALTH DATA",
+        "value": "HIV status",
+        "note": "HIV status was transmitted alongside testing information"
+      },
+      {
+        "label": "ASSOCIATED DATA",
+        "value": "GPS + ID",
+        "note": "Health data travelled with location and device identifiers"
+      },
+      {
+        "label": "USERS",
+        "value": "~3.6M/day",
+        "note": "Approximate daily user base at the time"
+      },
+      {
+        "label": "VENDORS",
+        "value": "2 vendors",
+        "note": "External analytics companies named in the investigation"
+      }
+    ],
+    "finding": "In April 2018 the Norwegian research foundation SINTEF, commissioned by the Swedish broadcaster SVT, found that Grindr was transmitting users' HIV status and last-tested date to the analytics vendors Apptimize and Localytics, bundled with GPS position, phone identifier and email address.",
+    "implication": "Information entered for intimate communication was processed as ordinary analytics telemetry.",
+    "argument": "In April 2018 the Norwegian research foundation SINTEF, commissioned by the Swedish broadcaster SVT, found that Grindr was transmitting users' HIV status and last-tested date to the analytics vendors Apptimize and Localytics, bundled with GPS position, phone identifier and email address. The same analysis found tribe, sexuality, relationship status and ethnicity passing to advertising companies, in some cases unencrypted, across a base of around 3.6 million daily users. The chief technology officer described the arrangement as standard practice in the mobile app ecosystem. Senators Markey and Blumenthal wrote to all three companies the following day.",
+    "sources": [
+      {
+        "type": "TECHNICAL INVESTIGATION",
+        "citation": "Ghorayshi, A., & Ray, S. (2018, April 2). Grindr is sharing the HIV status of its users with other companies. BuzzFeed News.",
+        "label": "READ INVESTIGATION",
+        "url": "https://www.buzzfeednews.com/article/azeenghorayshi/grindr-hiv-status-privacy"
+      },
+      {
+        "type": "TECHNICAL INVESTIGATION",
+        "citation": "Pultier, A., Nordbø, A., & Bjørnstad, C. (2018). An analysis of the \"free\" dating app ecosystem. SINTEF.",
+        "label": "READ TECHNICAL REPORT",
+        "url": "https://www.sintef.no/siste-nytt/2018/datingapp-deler-sensitive-helsedata/"
+      }
+    ]
+  },
+  {
+    "title": "The user base has been treated as a national security asset.",
+    "slug": "data-as-national-security",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XVII",
+    "number": 17,
+    "counter": "17 / 31",
+    "dek": "The data was considered too sensitive to remain under foreign ownership.",
+    "stats": [
+      {
+        "label": "CONTROL",
+        "value": "2016",
+        "note": "Controlling investment by Beijing Kunlun Tech"
+      },
+      {
+        "label": "FULL OWNERSHIP",
+        "value": "2018",
+        "note": "Chinese owner completed full acquisition of Grindr"
+      },
+      {
+        "label": "DIVESTITURE",
+        "value": "2019",
+        "note": "United States government ordered the divestiture"
+      },
+      {
+        "label": "SALE",
+        "value": "~$608.5M",
+        "note": "Approximate value of the completed 2020 sale"
+      }
+    ],
+    "finding": "Beijing Kunlun Tech acquired a controlling interest in Grindr in 2016 for $93 million and full ownership by 2018.",
+    "implication": "A dating database can be treated as strategically sensitive intelligence.",
+    "argument": "Beijing Kunlun Tech acquired a controlling interest in Grindr in 2016 for $93 million and full ownership by 2018. In 2019 the Committee on Foreign Investment in the United States determined that Chinese ownership of the application constituted a national security risk, on the reasoning that its data on sexual orientation, sexual behaviour and health was too sensitive to sit under foreign control, and ordered divestiture. The sale to San Vicente Acquisition closed on 10 June 2020 at approximately $608.5 million. Reuters subsequently reported that the approved buyer had financial and personal links to the seller.",
+    "sources": [
+      {
+        "type": "GOVERNMENT ORDER",
+        "citation": "Committee on Foreign Investment in the United States. (2019). Divestment order, Beijing Kunlun Tech Co. Ltd. / Grindr LLC.",
+        "label": "READ CFIUS ANALYSIS",
+        "url": "https://www.clearymawatch.com/2019/04/cfius-forces-kunlun-to-unwind-2016-acquisition-of-grindr-over-concerns-about-the-protection-of-sensitive-personal-data/"
+      },
+      {
+        "type": "GOVERNMENT ORDER",
+        "citation": "Wang, E., Alper, A., & Oguh, C. (2020, June 2). Exclusive: Winning bidder for Grindr has ties to Chinese owner. Reuters.",
+        "label": "READ REUTERS REPORT",
+        "url": "https://www.investing.com/news/stock-market-news/exclusive-winning-bidder-for-grindr-has-ties-to-chinese-owner-2189355"
+      }
+    ]
+  },
+  {
+    "title": "Membership is itself the sensitive datum.",
+    "slug": "membership-reveals-identity",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XVIII",
+    "number": 18,
+    "counter": "18 / 31",
+    "dek": "The disclosure is not only what you said. It is that you were there.",
+    "stats": [
+      {
+        "label": "FINE",
+        "value": "NOK 65M",
+        "note": "Administrative privacy penalty imposed in Norway"
+      },
+      {
+        "label": "DECISION",
+        "value": "Dec 2021",
+        "note": "Date of the Norwegian regulatory decision"
+      },
+      {
+        "label": "APPEAL",
+        "value": "Upheld",
+        "note": "Penalty survived the company’s subsequent appeals"
+      },
+      {
+        "label": "SENSITIVE INFERENCE",
+        "value": "Sexuality",
+        "note": "Membership alone could indicate sexual-minority status"
+      }
+    ],
+    "finding": "Norway's data protection authority fined Grindr NOK 65 million in December 2021 for sharing user data with advertising partners without valid consent, upheld on appeal in 2023 and by the Norwegian courts in October 2025.",
+    "implication": "Platform membership alone can expose sensitive identity information.",
+    "argument": "Norway's data protection authority fined Grindr NOK 65 million in December 2021 for sharing user data with advertising partners without valid consent, upheld on appeal in 2023 and by the Norwegian courts in October 2025. The regulator's reasoning is the operative part: data revealing that someone is a Grindr user strongly indicates that they belong to a sexual minority. What was disclosed was not what a person said on the platform. It was that the person was on it.",
+    "sources": [
+      {
+        "type": "REGULATORY DECISION",
+        "citation": "Datatilsynet. (2021, December 13). Administrative fine to Grindr LLC. Norwegian Data Protection Authority.",
+        "label": "OPEN REGULATORY DECISION (PDF)",
+        "url": "https://www.datatilsynet.no/contentassets/8ad827efefcb489ab1c7ba129609edb5/administrative-fine---grindr-llc.pdf"
+      }
+    ]
+  },
+  {
+    "title": "A man was identified using data that nobody had to steal.",
+    "slug": "identification-without-breach",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XIX",
+    "number": 19,
+    "counter": "19 / 31",
+    "dek": "No breach was required. The signals were commercially available.",
+    "stats": [
+      {
+        "label": "PERIOD",
+        "value": "2018–20",
+        "note": "Period covered by the commercially sourced signals"
+      },
+      {
+        "label": "DATA",
+        "value": "App signals",
+        "note": "Mobile-app activity purchased through the commercial market"
+      },
+      {
+        "label": "LOCATIONS",
+        "value": "3 settings",
+        "note": "Work, home and event locations were correlated"
+      },
+      {
+        "label": "BREACH",
+        "value": "None",
+        "note": "No breach of Grindr’s database was required"
+      }
+    ],
+    "finding": "In July 2021 the Catholic outlet \n\nThe Pillar\n\n reported that commercially available app signal data showed a device correlated to Monsignor Jeffrey Burrill emitting Grindr signals on a near-daily basis through parts of 2018, 2019 and 2020, at his office, his residence and at conference events.",
+    "implication": "Commercial data can enable identification without a visible platform breach.",
+    "argument": "In July 2021 the Catholic outlet \n\nThe Pillar\n\n reported that commercially available app signal data showed a device correlated to Monsignor Jeffrey Burrill emitting Grindr signals on a near-daily basis through parts of 2018, 2019 and 2020, at his office, his residence and at conference events. He resigned as general secretary of the United States Conference of Catholic Bishops. Grindr denied being the source and called the report a homophobic witch hunt. The data was purchased on the open market, which is the point: no breach occurred, and none was necessary.",
+    "sources": [
+      {
+        "type": "INVESTIGATIVE REPORT",
+        "citation": "O'Brien, M., & Bajak, F. (2021, July 22). Priest outed via Grindr app highlights rampant data tracking. Associated Press.",
+        "label": "READ AP REPORT",
+        "url": "https://www.nbcnews.com/tech/security/priest-outed-grindr-app-highlights-rampant-data-tracking-rcna1493"
+      }
+    ]
+  },
+  {
+    "title": "Profiles circulate as commodities on a resale market.",
+    "slug": "profiles-sold-as-commodities",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XX",
+    "number": 20,
+    "counter": "20 / 31",
+    "dek": "One million people. One hundred and thirty-six euros.",
+    "stats": [
+      {
+        "label": "PROFILES",
+        "value": "~1M",
+        "note": "Dating profiles purchased from a commercial data broker"
+      },
+      {
+        "label": "PHOTOGRAPHS",
+        "value": "~5M",
+        "note": "Photographs included in the acquired data package"
+      },
+      {
+        "label": "PRICE",
+        "value": "€136",
+        "note": "Total price paid for the complete dataset"
+      },
+      {
+        "label": "PER PROFILE",
+        "value": "€0.000136",
+        "note": "Approximate commercial value assigned to one profile"
+      }
+    ],
+    "finding": "Working with Tactical Tech, the Barcelona-based artist Joana Moll purchased approximately one million dating profiles from the broker USDate for €136.",
+    "implication": "Information created for intimate visibility can be resold for fractions of a cent.",
+    "argument": "Working with Tactical Tech, the Barcelona-based artist Joana Moll purchased approximately one million dating profiles from the broker USDate for €136. The package contained close to five million photographs alongside usernames, email addresses, nationality, gender, age, sexual orientation, stated interests, occupation, and physical and personality descriptions, drawn from platforms including Match, Tinder, Plenty of Fish and OkCupid. One hundred and thirty-six euros for one million people who had, in each case, been trying to be seen by exactly one.",
+    "sources": [
+      {
+        "type": "TACTICAL ARTWORK / INVESTIGATION",
+        "citation": "Moll, J., & Tactical Tech. (2018). The dating brokers: An autopsy of online love.",
+        "label": "VIEW PROJECT",
+        "url": "https://datadating.tacticaltech.org"
+      },
+      {
+        "type": "TACTICAL ARTWORK / INVESTIGATION",
+        "citation": "Zuboff, S. (2019). The age of surveillance capitalism. PublicAffairs.",
+        "label": "VIEW BOOK RECORD",
+        "url": "https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781541758001/?lens=publicaffairs"
+      }
+    ]
+  },
+  {
+    "title": "The record kept on a user exceeds the record the user keeps.",
+    "slug": "the-platform-remembers-more",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XXI",
+    "number": 21,
+    "counter": "21 / 31",
+    "dek": "A personal history returned as 800 pages of platform memory.",
+    "stats": [
+      {
+        "label": "ARCHIVE",
+        "value": "800 pp",
+        "note": "Length of the user archive returned by Tinder"
+      },
+      {
+        "label": "OPENINGS",
+        "value": "920",
+        "note": "Recorded occasions when the application was opened"
+      },
+      {
+        "label": "MESSAGES",
+        "value": "1,700",
+        "note": "Private messages retained across several years"
+      },
+      {
+        "label": "MATCHES",
+        "value": "870",
+        "note": "Matches preserved within the behavioural archive"
+      }
+    ],
+    "finding": "Judith Duportail exercised her right of access under European data law and received 800 pages: 920 openings of the application, 1,700 messages, 870 matches accumulated since December 2013.",
+    "implication": "The platform can remember a person’s intimate behavior more completely than the person does.",
+    "argument": "Judith Duportail exercised her right of access under European data law and received 800 pages: 920 openings of the application, 1,700 messages, 870 matches accumulated since December 2013. The data scientist Olivier Keyes, reviewing the file, said he was horrified and not remotely surprised. Duportail later published a book-length analysis of a Match patent she reads as encoding a sense of destiny into the matching logic, a reading the company disputes.",
+    "sources": [
+      {
+        "type": "FIRST-PERSON INVESTIGATION",
+        "citation": "Duportail, J. (2017, September 26). I asked Tinder for my data. It sent me 800 pages of my deepest, darkest secrets. The Guardian.",
+        "label": "READ INVESTIGATION",
+        "url": "https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold"
+      },
+      {
+        "type": "FIRST-PERSON INVESTIGATION",
+        "citation": "Duportail, J. (2019). L'amour sous algorithme. Éditions Goutte d'Or.",
+        "label": "VIEW BOOK RECORD",
+        "url": "https://editionsgouttedor.com/catalogue/lamour-sous-algorithme/"
+      }
+    ]
+  },
+  {
+    "title": "The company that sells community suppressed its own.",
+    "slug": "community-versus-its-workers",
+    "part": "PART TWO — THE GRID",
+    "thesis": "THESIS XXII",
+    "number": 22,
+    "counter": "22 / 31",
+    "dek": "A return-to-office mandate followed a union campaign. Half the workforce left.",
+    "stats": [
+      {
+        "label": "WORKFORCE",
+        "value": "178",
+        "note": "Total workforce before the contested return-to-office mandate"
+      },
+      {
+        "label": "LEFT",
+        "value": "~80",
+        "note": "Employees who departed rather than relocate"
+      },
+      {
+        "label": "DECISION",
+        "value": "2 weeks",
+        "note": "Time provided to make the relocation decision"
+      },
+      {
+        "label": "NLRB COMPLAINT",
+        "value": "Nov 2024",
+        "note": "Date the labour-board complaint was issued"
+      }
+    ],
+    "finding": "In July 2023 a supermajority of Grindr's staff announced their intention to unionise with the Communications Workers of America.",
+    "implication": "A company organized around community was accused of undermining worker organization.",
+    "argument": "In July 2023 a supermajority of Grindr's staff announced their intention to unionise with the Communications Workers of America. Within weeks the company issued a return-to-office mandate requiring relocation to a hub city, giving workers two weeks to decide. Roughly eighty of 178 employees left; the union noted the burden fell particularly on trans employees, who would have had to find new healthcare providers. On 1 November 2024 the National Labor Relations Board issued a complaint alleging that the policy was retaliation, that the severance agreement presented to workers was unlawful, and that the company had refused to recognise or bargain with the union. Grindr calls the allegations meritless and states that the transition to hybrid work predated the union petition.",
+    "sources": [
+      {
+        "type": "LABOUR-BOARD COMPLAINT",
+        "citation": "National Labor Relations Board. (2024, November 1). Complaint against Grindr LLC, Region 21, Los Angeles.",
+        "label": "OPEN NLRB CASE",
+        "url": "https://www.nlrb.gov/case/31-CA-333543"
+      }
+    ]
+  },
+  {
+    "title": "The extractive configuration is optional, and some firms have declined it.",
+    "slug": "extraction-is-optional",
+    "part": "PART THREE — REFUSALS",
+    "thesis": "THESIS XXIII",
+    "number": 23,
+    "counter": "23 / 31",
+    "dek": "Another company faced the same risks and made a different decision.",
+    "stats": [
+      {
+        "label": "PROGRAMMATIC ADS",
+        "value": "2018",
+        "note": "Year third-party programmatic advertising was removed"
+      },
+      {
+        "label": "THIRD-PARTY SDKs",
+        "value": "Removed",
+        "note": "External software-development kits were also removed"
+      },
+      {
+        "label": "MEMBERS",
+        "value": "~30M",
+        "note": "Reported membership across Scruff and Jack’d"
+      },
+      {
+        "label": "DATA SALES",
+        "value": "None",
+        "note": "Company states that it does not sell user data"
+      }
+    ],
+    "finding": "Perry Street Software, which operates Scruff and Jack'd and reaches a reported thirty million members, removed third-party programmatic advertising from its products in 2018 and stripped other companies' software development kits out of its applications at what its chief executive describes as tremendous cost in time and money.",
+    "implication": "Third-party advertising and data-sharing infrastructure are commercial choices, not necessities.",
+    "argument": "Perry Street Software, which operates Scruff and Jack'd and reaches a reported thirty million members, removed third-party programmatic advertising from its products in 2018 and stripped other companies' software development kits out of its applications at what its chief executive describes as tremendous cost in time and money. The company does not sell user data and does not use third-party ad networks. Eric Silverberg's stated reasoning is jurisdictional rather than ethical in the abstract: the community is sensitive to data sharing because there are countries that criminalise same-sex acts. The same conclusion was available to every company in Part Two.",
+    "sources": [
+      {
+        "type": "COMPANY PRIVACY STATEMENT",
+        "citation": "Perry Street Software. (2025, August 12). Privacy policy.",
+        "label": "READ PRIVACY POLICY",
+        "url": "https://www.perrystreet.com/privacy"
+      }
+    ]
+  },
+  {
+    "title": "Refusal is not innocence.",
+    "slug": "refusal-is-not-innocence",
+    "part": "PART THREE — REFUSALS",
+    "thesis": "THESIS XXIV",
+    "number": 24,
+    "counter": "24 / 31",
+    "dek": "Doing better on one mechanism does not make a platform clean.",
+    "stats": [
+      {
+        "label": "SETTLEMENT",
+        "value": "$240K",
+        "note": "Settlement concerning exposure of users’ private photographs"
+      },
+      {
+        "label": "USERS",
+        "value": "~7K",
+        "note": "Approximate number of users affected by the flaw"
+      },
+      {
+        "label": "FILTERS",
+        "value": "Jun 2020",
+        "note": "Ethnicity filters disabled across both applications"
+      },
+      {
+        "label": "ASSESSMENT",
+        "value": "Partial",
+        "note": "An improvement on one mechanism, not absolution"
+      }
+    ],
+    "finding": "Jack'd, acquired by Perry Street in 2019, paid $240,000 to approximately 7,000 users in a settlement with the New York Attorney General over a security flaw that left private photographs accessible.",
+    "implication": "Ethical refusal must be evaluated mechanism by mechanism, not treated as innocence.",
+    "argument": "Jack'd, acquired by Perry Street in 2019, paid $240,000 to approximately 7,000 users in a settlement with the New York Attorney General over a security flaw that left private photographs accessible. Scruff and Jack'd disabled their ethnicity filters in June 2020, following Grindr, and critics noted at the time that removing a filter is the minimum available action rather than an intervention in the sorting itself. The independent alternative is better on the specific mechanisms named here and is not thereby clean.",
+    "sources": [
+      {
+        "type": "REGULATORY SETTLEMENT / CRITICISM",
+        "citation": "Office of the New York State Attorney General. (2019). Settlement with Online Buddies, Inc. (Jack'd).",
+        "label": "OPEN SETTLEMENT",
+        "url": "https://ag.ny.gov/press-release/2019/attorney-general-james-announces-settlement-dating-app-failure-secure-private-and"
+      },
+      {
+        "type": "REGULATORY SETTLEMENT / CRITICISM",
+        "citation": "Henderson, T. (2020, June 3). Gay dating apps removing ethnicity filters is a meaningless gesture. Pride.",
+        "label": "READ CRITICISM",
+        "url": "https://www.pride.com/lovesex/2020/6/03/gay-dating-apps-removed-ethnicity-filters-it-meaningless-gesture"
+      }
+    ]
+  },
+  {
+    "title": "The interface is optional, and some products refuse the grid entirely.",
+    "slug": "the-grid-is-optional",
+    "part": "PART THREE — REFUSALS",
+    "thesis": "THESIS XXV",
+    "number": 25,
+    "counter": "25 / 31",
+    "dek": "No swipe. No ranked grid. Text before photographs.",
+    "stats": [
+      {
+        "label": "LAUNCHED",
+        "value": "Nov 2019",
+        "note": "Text-first queer application launched in late 2019"
+      },
+      {
+        "label": "ORIGIN",
+        "value": "Personal ads",
+        "note": "Design model derived from queer personal advertisements"
+      },
+      {
+        "label": "CROWDFUNDING",
+        "value": "$40K",
+        "note": "Initial community crowdfunding raised before launch"
+      },
+      {
+        "label": "LATER FUNDING",
+        "value": "$1.5M / $5.6M",
+        "note": "Later institutional seed rounds expanded the company"
+      }
+    ],
+    "finding": "Lex was launched in November 2019 by Kell Rakowski, out of an Instagram account that reproduced the personal advertisements from the back of \n\nOn Our Backs\n\n, the queer women's magazine published between 1984 and 2006.",
+    "implication": "The dominant swipe-and-grid interface is a choice rather than a requirement.",
+    "argument": "Lex was launched in November 2019 by Kell Rakowski, out of an Instagram account that reproduced the personal advertisements from the back of \n\nOn Our Backs\n\n, the queer women's magazine published between 1984 and 2006. It is text first and photographs second: no swipe, no grid, no ranked queue of faces. It was funded initially by a $40,000 Kickstarter raised from the community that would use it, and later by seed rounds of $1.5 million and $5.6 million against a team of eleven. It is small, and its smallness is a design position rather than a failure to scale.",
+    "sources": [
+      {
+        "type": "PLATFORM HISTORY",
+        "citation": "Rakowski, K. (2019). Lex [Mobile application].",
+        "label": "VIEW PLATFORM",
+        "url": "https://lex.lgbt"
+      }
+    ]
+  },
+  {
+    "title": "Removing a filter is not the same as removing the sorting.",
+    "slug": "filtering-is-not-sorting",
+    "part": "PART THREE — REFUSALS",
+    "thesis": "THESIS XXVI",
+    "number": 26,
+    "counter": "26 / 31",
+    "dek": "The menu disappeared. The distribution remained.",
+    "stats": [
+      {
+        "label": "VISIBLE FILTER",
+        "value": "Removed",
+        "note": "Visible ethnicity control removed from the interface"
+      },
+      {
+        "label": "SORTING PATTERNS",
+        "value": "Persist",
+        "note": "Underlying behavioural sorting patterns may still persist"
+      },
+      {
+        "label": "HISTORICAL PENALTY",
+        "value": "Black users",
+        "note": "Historical platform data showed penalties for Black users"
+      },
+      {
+        "label": "CURRENT DATA",
+        "value": "Unpublished",
+        "note": "Current response distributions have not been published"
+      }
+    ],
+    "finding": "Every major platform disabled ethnicity filtering in 2020.",
+    "implication": "Removing a discriminatory control does not automatically remove discriminatory sorting.",
+    "argument": "Every major platform disabled ethnicity filtering in 2020. The published response-rate analyses that OkCupid conducted on its own users, later collected by Christian Rudder, had already shown consistent penalties applied to Black users and particularly to Black women, and those patterns are produced by aggregated individual behaviour rather than by a drop-down menu. The filter was the visible instrument. The distribution it expressed remains in the data, and no company has published the distribution since.",
+    "sources": [
+      {
+        "type": "PLATFORM-DATA ANALYSIS",
+        "citation": "Rudder, C. (2014). Dataclysm: Who we are when we think no one's looking. Crown.",
+        "label": "VIEW BOOK RECORD",
+        "url": "https://www.penguinrandomhouse.com/books/223045/dataclysm-by-christian-rudder/"
+      }
+    ]
+  },
+  {
+    "title": "The applications work, and the argument survives it.",
+    "slug": "the-applications-work",
+    "part": "PART FOUR — THE OTHER LEDGER",
+    "thesis": "THESIS XXVII",
+    "number": 27,
+    "counter": "27 / 31",
+    "dek": "Real relationships emerge from systems that still reward continued use.",
+    "stats": [
+      {
+        "label": "HETERO COUPLES",
+        "value": "39%",
+        "note": "Heterosexual couples who met online in 2017"
+      },
+      {
+        "label": "SAME-SEX COUPLES",
+        "value": "65%",
+        "note": "Same-sex couples who met online in 2017"
+      },
+      {
+        "label": "OVERTAKING FRIENDS",
+        "value": "~2013",
+        "note": "Online meeting overtook introductions through friends"
+      },
+      {
+        "label": "OUTCOME",
+        "value": "Real",
+        "note": "Genuine relationships are a documented platform outcome"
+      }
+    ],
+    "finding": "Thirty-nine percent of heterosexual couples in the United States met online as of 2017, against twenty-two percent in 2009, with online meeting overtaking introduction through friends around 2013.",
+    "implication": "The platforms create genuine social value without resolving their extractive incentives.",
+    "argument": "Thirty-nine percent of heterosexual couples in the United States met online as of 2017, against twenty-two percent in 2009, with online meeting overtaking introduction through friends around 2013. Among same-sex couples formed in 2017 the figure reaches sixty-five percent, the highest of any group measured, which is the finding that matters most: the platforms deliver the greatest value precisely where the offline population is thinnest and hardest to find. Real relationships come out of these systems. An industry can produce them at that scale and remain structured so that the slower, partial, recurring outcome is the more valuable one, and the two facts are compatible.",
+    "sources": [
+      {
+        "type": "PEER-REVIEWED STUDY",
+        "citation": "Rosenfeld, M. J., Thomas, R. J., & Hausen, S. (2019). Disintermediating your friends: How online dating in the United States displaces other ways of meeting. Proceedings of the National Academy of Sciences, 116(36), 17753–17758.",
+        "label": "OPEN ARTICLE (DOI)",
+        "url": "https://doi.org/10.1073/pnas.1908630116"
+      }
+    ]
+  },
+  {
+    "title": "The same infrastructure is the lifeline and the trap.",
+    "slug": "lifeline-and-trap",
+    "part": "PART FOUR — THE OTHER LEDGER",
+    "thesis": "THESIS XXVIII",
+    "number": 28,
+    "counter": "28 / 31",
+    "dek": "The same app can enable connection, entrapment and emergency warning.",
+    "stats": [
+      {
+        "label": "COUNTRIES",
+        "value": "5",
+        "note": "Countries covered by the Human Rights Watch investigation"
+      },
+      {
+        "label": "EGYPT ARRESTS",
+        "value": "70+",
+        "note": "People arrested after the 2017 Cairo concert"
+      },
+      {
+        "label": "2023 ARRESTS",
+        "value": "35–40",
+        "note": "Further arrests reported during 2023"
+      },
+      {
+        "label": "WARNINGS",
+        "value": "Hourly",
+        "note": "Safety alerts sent to Grindr users in Egypt"
+      }
+    ],
+    "finding": "Human Rights Watch documented in a 135-page report how security forces in Egypt, Iraq, Jordan, Lebanon and Tunisia create fake profiles to entrap users, producing prosecution, torture and extortion; a twenty-seven-year-old Egyptian man recounted recognising, in the police report, that the man he had met on Grindr was one of the officers.",
+    "implication": "The same infrastructure can be indispensable and dangerous at once.",
+    "argument": "Human Rights Watch documented in a 135-page report how security forces in Egypt, Iraq, Jordan, Lebanon and Tunisia create fake profiles to entrap users, producing prosecution, torture and extortion; a twenty-seven-year-old Egyptian man recounted recognising, in the police report, that the man he had met on Grindr was one of the officers. After the rainbow flag was raised at a Cairo concert in September 2017, more than seventy people were arrested, many through app entrapment. In March 2023, following reports of thirty-five to forty further arrests, Grindr pushed hourly warnings to every user in Egypt and worked with local advocacy groups, as it has through Grindr for Equality since 2015. The company that leaked HIV status is also the company that sends the warning, and both statements are true at once.",
+    "sources": [
+      {
+        "type": "HUMAN-RIGHTS REPORT",
+        "citation": "Human Rights Watch. (2023). \"All this terror because of a photo\": Digital targeting and its offline consequences for LGBT people in the Middle East and North Africa.",
+        "label": "OPEN HUMAN RIGHTS REPORT",
+        "url": "https://www.hrw.org/report/2023/02/21/all-terror-because-photo/digital-targeting-and-its-offline-consequences-lgbt"
+      },
+      {
+        "type": "HUMAN-RIGHTS REPORT",
+        "citation": "ARTICLE 19. (2018). Apps, arrests and abuse in Egypt, Lebanon and Iran.",
+        "label": "OPEN ARTICLE 19 REPORT",
+        "url": "https://www.article19.org/apps-arrests-abuse-egypt-lebanon-iran/"
+      }
+    ]
+  },
+  {
+    "title": "The population being metered is measurably dying.",
+    "slug": "loneliness-is-the-market",
+    "part": "PART FOUR — THE OTHER LEDGER",
+    "thesis": "THESIS XXIX",
+    "number": 29,
+    "counter": "29 / 31",
+    "dek": "Loneliness is not caused by dating apps. It is the condition against which they are priced.",
+    "stats": [
+      {
+        "label": "GLOBAL",
+        "value": "1 in 6",
+        "note": "Estimated global population currently experiencing loneliness"
+      },
+      {
+        "label": "DEATHS",
+        "value": "871K/year",
+        "note": "Annual deaths statistically associated with loneliness"
+      },
+      {
+        "label": "RATE",
+        "value": "~100/hour",
+        "note": "Approximate global death rate for each hour"
+      },
+      {
+        "label": "SPAIN 18–24",
+        "value": "34.6%",
+        "note": "Young Spanish adults reporting unwanted loneliness"
+      }
+    ],
+    "finding": "The World Health Organization's Commission on Social Connection reports that one in six people worldwide is affected by loneliness, associated with an estimated 871,000 deaths each year, approximately one hundred every hour.",
+    "implication": "Platforms price access to connection inside a broader crisis of loneliness.",
+    "argument": "The World Health Organization's Commission on Social Connection reports that one in six people worldwide is affected by loneliness, associated with an estimated 871,000 deaths each year, approximately one hundred every hour. Prevalence is highest among those aged thirteen to twenty-nine and highest again in low-income countries, twenty-four percent against eleven. The United States Surgeon General places the mortality risk alongside smoking fifteen cigarettes a day. In Spain, twenty percent of adults live with unwanted loneliness and 13.5 percent have done so for two years or more, rising to 34.6 percent among those aged eighteen to twenty-four, at an estimated national cost of €14,141 million, 1.17 percent of gross domestic product. No dating platform caused this. Every dating platform is priced against it.",
+    "sources": [
+      {
+        "type": "PUBLIC-HEALTH REPORT",
+        "citation": "World Health Organization. (2025). From loneliness to social connection: Charting a path to healthier societies. WHO Commission on Social Connection.",
+        "label": "OPEN WHO REPORT (PDF)",
+        "url": "https://iris.who.int/bitstream/handle/10665/381746/9789240112360-eng.pdf"
+      },
+      {
+        "type": "PUBLIC-HEALTH REPORT",
+        "citation": "Office of the U.S. Surgeon General. (2023). Our epidemic of loneliness and isolation. U.S. Department of Health and Human Services.",
+        "label": "OPEN ADVISORY (PDF)",
+        "url": "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf"
+      },
+      {
+        "type": "PUBLIC-HEALTH REPORT",
+        "citation": "Fundación ONCE & Fundación AXA. (2024). Barómetro de la soledad no deseada en España 2024. Observatorio Estatal de la Soledad No Deseada.",
+        "label": "OPEN SOLEDAD REPORT",
+        "url": "https://www.soledades.es/estudios/barometro-soledad-no-deseada-espana-2024"
+      }
+    ]
+  },
+  {
+    "title": "The successor product removes the other person.",
+    "slug": "companionship-without-reciprocity",
+    "part": "PART FOUR — THE OTHER LEDGER",
+    "thesis": "THESIS XXX",
+    "number": 30,
+    "counter": "30 / 31",
+    "dek": "Companionship remains. Reciprocity disappears.",
+    "stats": [
+      {
+        "label": "MONTHLY USERS",
+        "value": "~20M",
+        "note": "Monthly active users reported by Character.AI"
+      },
+      {
+        "label": "ACTIVITY",
+        "value": "~2h/day",
+        "note": "Average daily activity claimed by the company"
+      },
+      {
+        "label": "GOOGLE DEAL",
+        "value": "$2.7B",
+        "note": "Reported value of Google’s technology licensing agreement"
+      },
+      {
+        "label": "CA LAW",
+        "value": "Jan 2026",
+        "note": "California companion-chatbot law entered into force"
+      }
+    ],
+    "finding": "Character.AI reports roughly twenty million monthly active users and claims an average of about two hours a day on its own definition of activity; Google licensed its technology for a reported $2.7 billion in August 2024.",
+    "implication": "Commercial companionship can remove reciprocity and the demands of another person.",
+    "argument": "Character.AI reports roughly twenty million monthly active users and claims an average of about two hours a day on its own definition of activity; Google licensed its technology for a reported $2.7 billion in August 2024. When Replika restricted romantic roleplay in February 2023, users who had maintained long attachments reacted with sufficient distress that subreddit moderators posted crisis resources, and the company restored the feature for accounts registered before 1 February. In October 2024 the mother of a fourteen-year-old boy filed a wrongful death action against Character Technologies; in May 2025 a federal judge allowed it to proceed, declining to treat the software as protected speech and treating it as a product instead. California's companion-chatbot statute took effect on 1 January 2026. Turkle described the illusion of companionship without the demands of friendship in 2011, and it is now a monthly subscription with a defence counsel.",
+    "sources": [
+      {
+        "type": "LITIGATION / SCHOLARSHIP",
+        "citation": "Turkle, S. (2011). Alone together: Why we expect more from technology and less from each other. Basic Books.",
+        "label": "VIEW BOOK RECORD",
+        "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/alone-together/9780465093656/"
+      },
+      {
+        "type": "LITIGATION / SCHOLARSHIP",
+        "citation": "Garcia v. Character Technologies, Inc., No. 6:24-cv-01903 (M.D. Fla. filed Oct. 22, 2024).",
+        "label": "OPEN CASE DOCKET",
+        "url": "https://www.courtlistener.com/docket/69300919/garcia-v-character-technologies-inc/"
+      }
+    ]
+  },
+  {
+    "title": "Regulators have named the mechanism without halting it.",
+    "slug": "named-not-stopped",
+    "part": "PART FOUR — THE OTHER LEDGER",
+    "thesis": "THESIS XXXI",
+    "number": 31,
+    "counter": "31 / 31",
+    "dek": "The dark pattern is prohibited. The like limit remains.",
+    "stats": [
+      {
+        "label": "EP VOTE",
+        "value": "545–12",
+        "note": "European Parliament vote on addictive digital design"
+      },
+      {
+        "label": "ANNUAL HARM",
+        "value": "≥€7.9B",
+        "note": "Estimated yearly harm from unfair digital practices"
+      },
+      {
+        "label": "DIGITAL FAIRNESS ACT",
+        "value": "Late 2026",
+        "note": "Expected timing of the Digital Fairness Act proposal"
+      },
+      {
+        "label": "STATUS",
+        "value": "Active",
+        "note": "Named mechanisms remain active despite regulatory recognition"
+      }
+    ],
+    "finding": "Article 25 of the Digital Services Act prohibits dark-pattern interfaces.",
+    "implication": "Regulatory recognition has advanced faster than enforcement and product change.",
+    "argument": "Article 25 of the Digital Services Act prohibits dark-pattern interfaces. The European Parliament adopted a resolution on addictive design in December 2023 by 545 votes to 12. The Commission's fitness check on consumer law estimated harm from unfair digital practices at no less than €7.9 billion a year and opened consultation on a Digital Fairness Act in 2025, with a proposal expected in late 2026. In the United States, the Federal Trade Commission's click-to-cancel rule was vacated by the Eighth Circuit in July 2025 on procedural grounds. Every mechanism named in these thirty-one theses has been described in a statute, a resolution or a complaint. The like limits are still there this morning.",
+    "sources": [
+      {
+        "type": "LEGISLATION / POLICY REVIEW",
+        "citation": "European Commission. (2024). Digital fairness — Fitness check on EU consumer law (Staff Working Document).",
+        "label": "OPEN POLICY REVIEW (PDF)",
+        "url": "https://commission.europa.eu/document/download/d3b2a18b-7eec-4fe6-8421-8961a9ceb288_en?filename=SWD_2024_231_1_EN_dts_resume_bilan_qualite_part1_v2.pdf"
+      },
+      {
+        "type": "LEGISLATION / POLICY REVIEW",
+        "citation": "European Parliament. (2023, December 12). Resolution on addictive design of online services and consumer protection.",
+        "label": "OPEN PARLIAMENT REPORT",
+        "url": "https://www.europarl.europa.eu/doceo/document/A-9-2023-0340_EN.html"
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+{{ define "body-class" }}thesis-page{{ end }}
+{{ define "title" }}
+  {{ $slug := .File.ContentBaseName }}
+  {{ range hugo.Data.theses }}{{ if eq .slug $slug }}{{ .title }} — DaaS{{ end }}{{ end }}
+{{ end }}
+{{ define "main" }}
+{{ $slug := .File.ContentBaseName }}
+{{ $record := false }}
+{{ range hugo.Data.theses }}{{ if eq .slug $slug }}{{ $record = . }}{{ end }}{{ end }}
+{{ with $record }}
+  {{ $header := dict "counter" .counter "progress" (mul (div (float .number) 31) 100) }}
+  {{ partial "header.html" $header }}
+  <main id="main-content" class="thesis-shell" id="top">
+    <aside class="thesis-nav" aria-label="All theses">
+      <p>{{ .part }}</p>
+      <ol>
+        {{ range hugo.Data.theses }}
+          <li class="{{ if eq .slug $slug }}is-current{{ end }}">
+            <a href="{{ printf "/collection/%s/" .slug | relURL }}"><span>{{ .thesis }}</span>{{ .title }}</a>
+          </li>
+        {{ end }}
+      </ol>
+    </aside>
+    <article>
+      <header class="thesis-hero">
+        <p class="eyebrow">{{ .part }}</p>
+        <p class="thesis-number">{{ .thesis }}</p>
+        <h1>{{ .title }}</h1>
+        <p class="dek">{{ .dek }}</p>
+      </header>
+
+      <section class="argument">
+        <p>{{ .argument }}</p>
+      </section>
+
+      <section class="evidence">
+        <p class="eyebrow">EVIDENCE SNAPSHOT</p>
+        <div class="stat-grid">
+          {{ range .stats }}
+            <div><strong>{{ .value }}</strong><h2>{{ .label }}</h2><p>{{ .note }}</p></div>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="finding">
+        <div>
+          <p class="eyebrow">KEY FINDING</p>
+          <p>{{ .finding }}</p>
+          <h2>IMPLICATION</h2>
+          <blockquote>{{ .implication }}</blockquote>
+        </div>
+        <div class="sources">
+          <p class="eyebrow">SOURCE APPARATUS</p>
+          {{ range $index, $source := .sources }}
+            <article>
+              <p class="source-type">SOURCE {{ printf "%02d" (add $index 1) }} | {{ $source.type }}</p>
+              <p>{{ $source.citation }}</p>
+              <a href="{{ $source.url }}" target="_blank" rel="noreferrer">{{ $source.label }} ↗</a>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+
+      <nav class="next-thesis" aria-label="Continue through the inquiry">
+        {{ $next := index hugo.Data.theses (mod .number 31) }}
+        <p>NEXT THESIS</p>
+        <a href="{{ printf "/collection/%s/" $next.slug | relURL }}">
+          <span>{{ $next.thesis }}</span>
+          <strong>{{ $next.title }}</strong>
+          <i>→</i>
+        </a>
+      </nav>
+    </article>
+  </main>
+  {{ partial "footer.html" . }}
+{{ else }}
+  <main id="main-content"><h1>Thesis not found</h1></main>
+{{ end }}
+{{ end }}

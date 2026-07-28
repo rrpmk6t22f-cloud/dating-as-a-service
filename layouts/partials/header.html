@@ -1,0 +1,12 @@
+<header class="site-header">
+  <a class="wordmark" href="{{ "/" | relURL }}">DATING AS A SERVICE</a>
+  <p>Thirty-one theses on dating capitalism</p>
+  {{ with .counter }}
+    <div class="reading-count">
+      <span>{{ . }}</span>
+      <span class="progress-track" aria-hidden="true"><i style="--progress:{{ $.progress }}%"></i></span>
+    </div>
+  {{ else }}
+    <a class="menu-link" href="{{ "/collection/" | relURL }}">THESES 01—31</a>
+  {{ end }}
+</header>

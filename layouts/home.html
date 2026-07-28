@@ -1,0 +1,66 @@
+{{ define "body-class" }}home{{ end }}
+{{ define "main" }}
+<div class="preloader" data-preloader>
+  <button type="button" aria-label="Dismiss preloader and enter page" data-enter>
+    <span>CRITICAL INQUIRY</span>
+    <strong>DATING AS A SERVICE</strong>
+    <small>CLICK TO START</small>
+  </button>
+</div>
+{{ partial "header.html" (dict) }}
+<main id="main-content">
+  <section class="hero" id="top">
+    <p class="eyebrow">CRITICAL INQUIRY / INTERNET INEQUALITIES</p>
+    <h1>DATING AS A SERVICE</h1>
+    <p class="hero-dek">Thirty-one theses on intimacy, infrastructure and extraction.</p>
+    <p class="hero-copy">Dating apps promise to help people find someone. Their business models depend on people continuing to search. This project investigates what happens when connection becomes a subscription, attention becomes inventory and intimacy becomes platform infrastructure.</p>
+    <div class="button-row">
+      <a class="button primary" href="{{ "/collection/revenue-up-payers-down/" | relURL }}">ENTER THE INQUIRY <span>↗</span></a>
+      <a class="button" href="#why">LEARN MORE <span>↓</span></a>
+    </div>
+    <div class="hero-stats" aria-label="Project overview">
+      <p><strong>31</strong><span>Theses</span></p>
+      <p><strong>4</strong><span>Parts</span></p>
+      <p><strong>1</strong><span>Contradiction</span></p>
+    </div>
+  </section>
+
+  <section class="editorial purple" id="why">
+    <p class="eyebrow">02 / WHY THIS PROJECT</p>
+    <h2>The search for another person has become a recurring-revenue product.</h2>
+    <div class="two-col">
+      <p>I began with a contradiction I could not stop seeing: the user’s ideal outcome is to no longer need the application, while the platform measures success through retention, engagement and revenue per payer. Dating apps do create relationships. For queer people, people in isolated communities and anyone whose potential partners are difficult to encounter offline, they can be essential infrastructure. That usefulness does not make their business models neutral. The same systems can rank desirability, manufacture scarcity, personalise prices, expose sensitive information and convert loneliness into recurring demand. This inquiry asks how genuine connection and commercial extraction can exist inside the same interface.</p>
+      <blockquote>The problem is not that connection is fake. It is that the route to it has become an extraction system.</blockquote>
+    </div>
+  </section>
+
+  <section class="editorial">
+    <p class="eyebrow">03 / THE PROJECT</p>
+    <h2>A manifesto that behaves like the product it examines.</h2>
+    <div class="two-col">
+      <p>I created an interactive, evidence-led manifesto composed of thirty-one theses—one for each price Tinder was found charging for the same subscription within a single country. Every thesis is presented through the same research structure. As the visitor progresses, that surface gives way to corporate filings, court cases, regulatory decisions, research studies and transaction records. The user begins inside the product and ends inside its balance sheet.</p>
+      <ol class="method-list">
+        <li>CLAIM</li><li>CONTEXT</li><li>ARGUMENT</li>
+        <li>EVIDENCE SNAPSHOT</li><li>SOURCE / FINDING</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="editorial dark">
+    <p class="eyebrow">06 / EVIDENCE METHOD</p>
+    <h2>Every claim carries its burden of proof.</h2>
+    <div class="two-col">
+      <p>The project draws from corporate filings, court records, regulatory decisions, peer-reviewed research, technical investigations, journalism and tactical media. Different forms of evidence are not treated as interchangeable. Company-reported figures, allegations, settlements, scholarly interpretations and confirmed regulatory findings are labelled separately. The argument concerns incentive structures rather than secret intentions. A system does not need a conspiracy in order to produce consistent outcomes.</p>
+      <a class="button light" href="{{ .Site.Params.sourceArchive }}" target="_blank" rel="noreferrer">VIEW THE SOURCE ARCHIVE ↗</a>
+    </div>
+  </section>
+
+  <section class="closing">
+    <p class="eyebrow">07 / FIRST THESIS</p>
+    <h2>Start with the money.</h2>
+    <p>The first thesis begins where the companies begin: payers, revenue and the value extracted from each remaining user.</p>
+    <a class="button primary" href="{{ "/collection/revenue-up-payers-down/" | relURL }}">BEGIN WITH THESIS I →</a>
+  </section>
+</main>
+{{ partial "footer.html" . }}
+{{ end }}

@@ -1,0 +1,11 @@
+baseURL = "https://daas.slavinrudakov.com/"
+locale = "en-US"
+title = "Dating as a Service"
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+description = "Thirty-one theses on intimacy, infrastructure and extraction."
+sourceArchive = "https://docs.fileverse.io/document/eHi6oJRhVrkJBGvBEmjGGj#k=DdeQuhgzj3HbfsDqSS6G06tDr4paERGrw0ceS8-fONk"
+
+[markup.goldmark.renderer]
+unsafe = true

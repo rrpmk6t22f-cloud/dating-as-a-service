@@ -1,0 +1,33 @@
+{{ define "title" }}The Collection — {{ .Site.Title }}{{ end }}
+{{ define "body-class" }}collection-index{{ end }}
+{{ define "main" }}
+{{ partial "header.html" (dict) }}
+<main id="main-content" class="collection-shell" data-collection>
+  <section class="collection-intro" id="top">
+    <p class="eyebrow">THE COMPLETE INQUIRY</p>
+    <h1>THIRTY-ONE THESES</h1>
+    <p>On intimacy, infrastructure and extraction.</p>
+  </section>
+  <nav class="part-filter" aria-label="Filter theses">
+    <button class="is-active" data-filter="all">ALL 31</button>
+    <button data-filter="part-one">PART ONE</button>
+    <button data-filter="part-two">PART TWO</button>
+    <button data-filter="part-three">PART THREE</button>
+    <button data-filter="part-four">PART FOUR</button>
+  </nav>
+  <ol class="thesis-grid">
+    {{ range hugo.Data.theses }}
+      {{ $part := lower (replaceRE ` —.*$` "" .part) | urlize }}
+      <li data-part="{{ $part }}">
+        <a href="{{ printf "/collection/%s/" .slug | relURL }}">
+          <span>{{ .thesis }}</span>
+          <h2>{{ .title }}</h2>
+          <p>{{ .dek }}</p>
+          <b aria-hidden="true">↗</b>
+        </a>
+      </li>
+    {{ end }}
+  </ol>
+</main>
+{{ partial "footer.html" . }}
+{{ end }}
