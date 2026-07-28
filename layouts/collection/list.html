@@ -19,7 +19,7 @@
     {{ range hugo.Data.theses }}
       {{ $part := lower (replaceRE ` —.*$` "" .part) | urlize }}
       <li data-part="{{ $part }}">
-        <a href="{{ printf "/collection/%s/" .slug | relURL }}">
+        <a href="{{ printf "collection/%s/" .slug | relURL }}">
           <span>{{ .thesis }}</span>
           <h2>{{ .title }}</h2>
           <p>{{ .dek }}</p>

@@ -16,7 +16,7 @@
       <ol>
         {{ range hugo.Data.theses }}
           <li class="{{ if eq .slug $slug }}is-current{{ end }}">
-            <a href="{{ printf "/collection/%s/" .slug | relURL }}"><span>{{ .thesis }}</span>{{ .title }}</a>
+            <a href="{{ printf "collection/%s/" .slug | relURL }}"><span>{{ .thesis }}</span>{{ .title }}</a>
           </li>
         {{ end }}
       </ol>
@@ -64,7 +64,7 @@
       <nav class="next-thesis" aria-label="Continue through the inquiry">
         {{ $next := index hugo.Data.theses (mod .number 31) }}
         <p>NEXT THESIS</p>
-        <a href="{{ printf "/collection/%s/" $next.slug | relURL }}">
+        <a href="{{ printf "collection/%s/" $next.slug | relURL }}">
           <span>{{ $next.thesis }}</span>
           <strong>{{ $next.title }}</strong>
           <i>→</i>
